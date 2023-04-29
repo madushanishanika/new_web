@@ -1,0 +1,13 @@
+.div1{
+    background-color: blueviolet; 
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue
+}
+#btn{
+    background-color: brown; 
+    padding: 10px ;color:white; 
+    width: 300px; 
+    height: 40px; 
+    border-radius: 100px;
+}

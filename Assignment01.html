@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type=text/css>   
+       
+        header {  
+        background-color: rgb(4, 4, 80);  
+        position: fixed;  
+        left: 400px;  
+        right: 0;  
+        top: 10px;  
+        height: 30px;  
+        display: flex; 
+        align-items: center;
+          
+          
+        }  
+        header * {  
+        display: inline;  
+        }  
+        header li {  
+        padding-right: 80px;
+        
+        }  
+        header li a {  
+        color:white;  
+        text-decoration: none;  
+        }  
+        label{
+            border-radius: 100px;
+            height:20px;
+            width: 300px;
+            padding: 5px;
+        }
+        .btn{
+            border-radius: 100px;
+            height:20px;
+            width: 300px;
+            padding: 2px;
+        }
+        #pswd{
+            border-radius: 100px; 
+            height:20px;
+            width: 150px;
+            padding: 2px;
+        }
+
+        </style>   
+</head>
+<body>
+    
+    <div style="float: left;width: 400px;height: 100%; position:absolute; left:0px;top:opx; ;" >
+        <img src="images/registrationImage.jpg" width="400px" height="100% " >
+    </div>
+    <div style="width: 960px;height:100%;float: right;background-color:gainsboro;position: absolute;left:400px;top:opx; ">
+    <header>
+        <nav>
+            <ul>
+              <li><a href="#home"><b>HOME</b></a></li>
+              <li><a href="#about"><b>ABOUT</b></a></li>
+              <li><a href="#services"><b>SERVICES</b></a></li>
+              <li><a href="#contact"><b>CONTACT</b></a></li>
+            </ul>
+          </nav>
+        </header>
+        <h1 style="text-align: center;padding-top: 15px;" >REGISTRATION FORM</h1>
+        
+        <div style="padding-left: 30px;" >
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+        <label for="FName" ><b>First Name</b></label>&nbsp;&nbsp;&emsp;&emsp;
+        <input type="text" placeholder="First Name" name="FName" id="FName" required style class="btn"><br><br>
+        <label for="LName"><b>Last Name</b></label>&nbsp;&nbsp;&nbsp;&emsp;&emsp;
+        <input type="text" placeholder="Last Name" name="LName" id="LName" required style class="btn"><br><br>
+        <label for="Address" ></label><b>Address</b></label>&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+        <textarea id="Address" name="Address" placeholder="Enter Address" rows="1" colums="800" style class="btn">
+        </textarea><br><br>
+        <label for="PNumber"><b>Phone Number</b></label>&nbsp;&nbsp;&nbsp;
+        <input type="text" placeholder="Phone Number" name="PNumber" id="PNumber" required style class="btn"><br><br>
+        <label for="DateOfBirth"><b>Date Of Birth</b></label>&nbsp;&nbsp;&emsp;
+        <input type="text" placeholder="DD/MM/YYYY" name="DateOfBirth" id="DateOfBirth" required style class="btn"><br><br>
+        <label for="Gender"><b>Gender</b></label>&emsp;&emsp;&emsp;&emsp;
+        <input type="radio" name="Gender" value="male">Male&emsp;&emsp;&emsp;
+        <input type="radio" name="Gender" value="female">Female<br><br>
+        <label for="email"><b>Email*</b></label>&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+        <input type="text" placeholder="Enter Email" name="email" id="email" required style class="btn"><br><br>
+
+        <label for="psw"><b>Password*</b></label>&emsp;&emsp;&emsp;
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required style class="btn">&emsp;&emsp;
+
+        <label for="psw-repeat"><b>Repeat Password*</b></label>&emsp;
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required style id ="pswd">
+    <hr>
+
+        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+        <button type="submit" class="registerbtn" style="border-radius: 100px;width: 150px;height: 30px;text-align: center;background-color: rgb(8, 8, 63); color: white;margin-left: 300px;"><b>Register</b></button>
+        <p>Already have an account? <a href="#">Sign in</a>.</p>
+    </div>
+    </div>
+    
+    
+</body>
+</html>
